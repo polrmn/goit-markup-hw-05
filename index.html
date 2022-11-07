@@ -55,7 +55,7 @@
       <section class="section button-field">
         <div class="container">
           <h1 class="button-discription">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="order-button">Замовити послугу</button>
+          <button type="button" class="order-button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
 
@@ -400,6 +400,14 @@
     </div>
   </footer>
 
-  <script src="./js/modal.js"></script>
+  <div class="modal-container is-hidden" data-modal>
+    <div class="modal-wrap">
+      <button class="modal-close-btn" type="button" data-modal-close>
+        <img src="./images/icons/cross.svg" alt="Хрест">
+      </button>
+    </div>
+  </div>
+
+  <script src="./modal.js"></script>
   </body>
 </html>
