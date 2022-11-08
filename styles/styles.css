@@ -601,7 +601,8 @@ a:hover, a:active, a:focus {
     letter-spacing: 0.03em;
     color: var(--brand-color-main)
 }
-.project-item:hover .discription-container{
+.project-link:hover .discription-container,
+.project-link:focus .discription-container {
     top: 0;
 }
 
